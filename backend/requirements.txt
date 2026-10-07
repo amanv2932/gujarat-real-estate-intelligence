@@ -5,3 +5,6 @@ numpy
 pydantic
 pydantic-settings
 python-dotenv
+scikit-learn
+xgboost
+joblib
