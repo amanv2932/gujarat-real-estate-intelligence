@@ -1,0 +1,43 @@
+{
+    "target": "price_lakh",
+    "features": {
+        "numerical": [
+            "area_sqft",
+            "bhk",
+            "bathrooms",
+            "floor_current",
+            "total_floors",
+            "age_years",
+            "parking_available",
+            "lift_available",
+            "latitude",
+            "longitude"
+        ],
+        "categorical": [
+            "city",
+            "district",
+            "region",
+            "locality",
+            "property_type_std",
+            "transaction_type",
+            "furnishing_status",
+            "facing",
+            "construction_status"
+        ]
+    },
+    "training_rows": 29200,
+    "test_rows": 10800,
+    "model_name": "Gradient Boosting Regressor",
+    "metrics": {
+        "model": "Gradient Boosting Regressor",
+        "val_mae": 4.19019419493607,
+        "val_rmse": 5.752726853431285,
+        "val_r2": 0.8388205038396856,
+        "holdout_mae": 5.109824554468788,
+        "holdout_rmse": 6.942364030076168,
+        "holdout_r2": 0.7737602356129922
+    },
+    "random_seed": 42,
+    "dataset_version": "gujarat final.csv",
+    "training_date": "2026-10-07T11:34:30.591659"
+}
